@@ -41,7 +41,8 @@ namespace SendSampleData
             aTimer.Enabled = true;
         }
 
-        private static void StartTimer()
+        //Stopping the service 
+        private static void StopTimer()
         {
             aTimer.Stop();
             aTimer.Dispose();
