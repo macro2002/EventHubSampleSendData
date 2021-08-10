@@ -6,6 +6,7 @@ namespace EventHubSampleSendData
     {
         public DbSet<Attendance> GF_attendance { get; set; }
 
+        //Connection strings https://docs.microsoft.com/en-us/ef/ef6/fundamentals/configuring/connection-strings
         public ApplicationContext()
         {
             //There may be auxiliary logic when initializing the database context, as well as to see the supported databases.
